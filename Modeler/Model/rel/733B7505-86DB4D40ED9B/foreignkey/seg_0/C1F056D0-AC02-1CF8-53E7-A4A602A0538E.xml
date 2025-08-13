@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1F056D0-AC02-1CF8-53E7-A4A602A0538E" containerWithKeyObject="D3F2E193-B228-8E53-E578-F604E296FD75" localFKIndex="B4BFE367-5B42-1588-0CF9-3D69638DD1C4" name="odrasli_takmicarskaEkipa_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>A3E6064F-85E0-94A4-D72A-E8146A21D002</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>takmicarskaEkipa</referredTableLongName>
+<arc>7E01D036-BB33-0CCD-C8A4-2B87D36327DB</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1F85775-43D3-4D8E-0AFB-57DFD95EE90E</referredTableID>
+<keyObject>59275937-F131-FEDF-49CF-F4A3866D3876</keyObject>
+<referredKeyID>59275937-F131-FEDF-49CF-F4A3866D3876</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEkipe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>odrasli</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

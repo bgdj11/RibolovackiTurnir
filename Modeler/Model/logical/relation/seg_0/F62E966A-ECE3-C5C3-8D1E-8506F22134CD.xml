@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sponzorise" directorySegmentName="seg_0" id="F62E966A-ECE3-C5C3-8D1E-8506F22134CD">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:27:11 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3BE68F03-15C5-2BA6-27E6-A1AF2320281E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>38CDA1E9-27E5-A89F-415C-A0EF99D5E596</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

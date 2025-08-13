@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="popunjava" directorySegmentName="seg_0" id="69C721EB-1B16-7EAF-F247-DA3770A494EA">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:31:04 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<sourcePk>AE1821D2-DE35-97E6-F739-5FFEDA93A536</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6AA8EF95-610E-0C3C-A84A-7337CCD90BC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>503DE32A-0542-449C-7DA5-71D09BF57F7A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

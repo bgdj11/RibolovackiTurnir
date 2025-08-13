@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="422765C4-3993-9A41-B996-E51AB505FD2C" name="sudija">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>5C8DFE02-9D3C-BDA3-5386-B36D058F0E22</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSudije" id="1E290E07-BE77-6954-319E-981033B64FA3">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>8911AA84-A2C6-3A42-279D-FE9A96085E19</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="35F4B967-4404-B528-C12F-CAC0F2A6C97F">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>2B10927D-7277-572C-0101-6311244D5321</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="74F75773-9E5E-8CB9-FF62-A278CA915A49">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>E3E1C144-028F-D601-19F4-C39EBEF0DE32</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="licenca" id="AD2783E0-4ABD-14CE-C17E-698258A09F73">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>4687D7FF-3434-D63E-8518-D798DB9C8A24</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A662E44-F5C3-37C2-D877-C28F7AAC9382" name="sudija_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>1F0A3E6A-617F-2E4F-CE4E-76EA47C96705</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E290E07-BE77-6954-319E-981033B64FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78523DD7-4722-52ED-CF29-40F8A441D194" name="nagrada">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>6FAC2A59-5C39-616E-7333-3CFCD34FCE41</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idNagrade" id="B2A3FF55-C981-9661-020C-844B5A4D13CC">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>2F8E5955-46E9-4783-5CB0-9BFCB4C79585</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrstaNagrade" id="986D76F0-EB07-E859-C90E-02AC6F415097">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>E9FAAC2B-2CA7-96D0-EE59-8DD5616DDE7A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazivNagrade" id="5434A3CA-72DB-D41C-A374-585705FFD500">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>344D2ABB-342B-9391-50A2-97CCB7ED5C49</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opisNagrade" id="8380775B-7506-DC18-6BBB-8A60F4886261">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>CE5E56F6-7949-7032-A1FA-AC196BF8F33E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turnir_idTurnira" id="0AC48724-4F6D-9DF8-4DEB-CF2FC05B82F0">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>53B2010B-CE16-0E69-5998-67CF956E758C</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="172FEA3D-E349-0B74-8F10-693D21AAB664" referredColumn="FF7DF03F-1AA8-D35E-6FE9-0B1A74B8B404"/>
+</associations>
+</Column>
+<Column name="idTurnira" id="0863F413-214B-39F6-C4E1-58F507EFFAFF">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:56:52 UTC</createdTime>
+<generatorID>B86A3C71-4D6C-BB99-372E-263B36A7F139</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB8B4D39-3854-A2B6-82ED-E2E4E2A4AF5A" name="nagrada_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>6596A060-03BA-5532-9E3D-6142541892A8</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2A3FF55-C981-9661-020C-844B5A4D13CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04CA3032-7A61-7B03-D5D6-2B8DAEB59CF4" name="nagrada_turnir_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>29550E23-20A5-4618-0A10-D43B2F92023F</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC48724-4F6D-9DF8-4DEB-CF2FC05B82F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

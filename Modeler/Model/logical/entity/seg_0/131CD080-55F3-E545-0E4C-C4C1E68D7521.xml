@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="131CD080-55F3-E545-0E4C-C4C1E68D7521" name="takmicarskaEkipa">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 19:58:14 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEkipe" id="6E10B532-804A-6760-45B9-D9CD27F098C0">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 19:58:30 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazivEkipe" id="1BF109B7-C5C7-52C8-8205-3A21C07A20B8">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 19:58:49 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C1CB157-89C2-8491-6CAE-F9274859B757" name="takmicarska_ekipa PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 19:58:38 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E10B532-804A-6760-45B9-D9CD27F098C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

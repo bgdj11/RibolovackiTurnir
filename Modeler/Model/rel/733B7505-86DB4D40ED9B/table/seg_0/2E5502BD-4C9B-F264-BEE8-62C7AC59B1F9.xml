@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E5502BD-4C9B-F264-BEE8-62C7AC59B1F9" name="ribolovac">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>6AA8EF95-610E-0C3C-A84A-7337CCD90BC6</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idRibolovca" id="7540BF32-D712-7B8B-9E26-BC9EDBE8D47A">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>31F208EE-DC75-6489-E01F-757718E901EA</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="9018D522-15F6-8CF8-B694-2A538265DCF4">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>F6D893AB-BD00-E0D0-02F4-AA96232A3118</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="8A80D9B9-809E-4A4C-207E-9341F7495DB9">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>A97BA89D-5008-0BFC-F07B-98223D5A5C9E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumRodjenja" id="9DCFB179-7659-C589-EEDC-980D697DA27F">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>F2F29732-D536-5BEE-5A64-994FAE77C125</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brojTelefona" id="9F6EE6AA-8864-E541-E0DF-5A00D8EC6253">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>C7CABA9D-9FB9-F2A2-0115-7B25D569A18E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="takmicarskaEkipa_idEkipe" id="BA9D9E7F-A091-DAE0-BAD3-BB16F47BEAC5">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>07165E41-B80C-8450-6E0D-381B2130BEA7</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DD75C29-4404-6956-0123-221054E36BD4" referredColumn="221A7FFD-F3CB-72F7-158A-9F3AC32FE37D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3899C81D-5164-2EDD-284C-27847FB3B213" name="ribolovac_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>AE1821D2-DE35-97E6-F739-5FFEDA93A536</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7540BF32-D712-7B8B-9E26-BC9EDBE8D47A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C181B6C0-3946-C9E6-49A5-0137AD25BF6F" name="ribolovac_takmicarskaEkipa_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>355283C1-90E1-C97B-600E-76D936503491</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA9D9E7F-A091-DAE0-BAD3-BB16F47BEAC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

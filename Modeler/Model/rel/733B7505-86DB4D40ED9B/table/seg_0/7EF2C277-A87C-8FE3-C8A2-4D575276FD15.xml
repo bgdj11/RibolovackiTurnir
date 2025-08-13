@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EF2C277-A87C-8FE3-C8A2-4D575276FD15" name="sudi">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="turnir_idTurnira" id="BACE8890-B0EB-E2D2-B0DF-5B5915E1A4E0">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AB97950-F052-DD9B-A440-3826EDF88FC7" referredColumn="FF7DF03F-1AA8-D35E-6FE9-0B1A74B8B404"/>
+</associations>
+</Column>
+<Column name="sudija_idSudije" id="F92FA4CA-C109-EDE2-3955-95061B25DA20">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A6D0090-42A0-B1E8-4BAA-80EB23D6792E" referredColumn="1E290E07-BE77-6954-319E-981033B64FA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6381309B-6C7A-402E-BA0B-DECC9795B57D" name="sudi_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BACE8890-B0EB-E2D2-B0DF-5B5915E1A4E0"/>
+<colUsage columnID="F92FA4CA-C109-EDE2-3955-95061B25DA20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C696D95-EF5D-C1D9-2F16-274AE971C9A0" name="sudi_turnir_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>D7C346BD-5F6B-D0AD-1AB8-0F87F272EA88</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BACE8890-B0EB-E2D2-B0DF-5B5915E1A4E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1901181F-F0BC-BB44-7222-483069E22876" name="sudi_sudija_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>D7C346BD-5F6B-D0AD-1AB8-0F87F272EA88</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F92FA4CA-C109-EDE2-3955-95061B25DA20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

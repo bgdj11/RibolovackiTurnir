@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD131681-F525-6903-33D0-1D0806BE5623" name="turnir">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>3BE68F03-15C5-2BA6-27E6-A1AF2320281E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTurnira" id="FF7DF03F-1AA8-D35E-6FE9-0B1A74B8B404">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>75879EF8-A874-397C-653E-447575D10CF9</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazivTurnira" id="9524874E-0163-9250-9057-D9A3AC9ADCFF">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>5FFD1ED6-F3F4-2895-E1FA-2921B55484F4</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumOdrzavanja" id="6085961A-5B25-AEFD-CF0A-3CDD181FD33E">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>52A7DB1B-F47C-083E-4331-6F89534B4502</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organizator" id="7EBDD3D7-1FF5-5651-2E41-CABE6189E84E">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>0BA965AD-4B2E-06A8-1CEE-A7C9197A9098</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38F154DD-B2A5-3375-DFC6-C51B23818AD4" name="turnir_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>9613BE3D-B1F8-694C-F807-99175DEB725C</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF7DF03F-1AA8-D35E-6FE9-0B1A74B8B404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

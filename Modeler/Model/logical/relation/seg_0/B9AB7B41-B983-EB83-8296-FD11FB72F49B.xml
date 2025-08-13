@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="lovi" directorySegmentName="seg_0" id="B9AB7B41-B983-EB83-8296-FD11FB72F49B">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:43:24 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<sourcePk>AE1821D2-DE35-97E6-F739-5FFEDA93A536</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6AA8EF95-610E-0C3C-A84A-7337CCD90BC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CDBAC30D-7874-971C-FDF1-4C81B73FFAF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

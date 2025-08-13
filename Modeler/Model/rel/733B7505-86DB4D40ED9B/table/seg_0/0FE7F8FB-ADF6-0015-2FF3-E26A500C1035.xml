@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FE7F8FB-ADF6-0015-2FF3-E26A500C1035" name="decija">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>D9BB98A8-7AC8-795B-1989-ED6A9F294595</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEkipe" id="F1137505-12E3-6E9A-ED63-5E38BDD4D9B5">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>6E10B532-804A-6760-45B9-D9CD27F098C0</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F81BB30B-3353-C682-94DF-C45AC732A7F2" referredColumn="221A7FFD-F3CB-72F7-158A-9F3AC32FE37D"/>
+</associations>
+</Column>
+<Column name="uzrast" id="1BBD2E8C-0340-8A0C-5EC1-886EAAD11376">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>9710C609-17E6-D67A-4E24-DCECCB247304</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD991E6F-50E6-C1EE-2D9F-8BA2700B698E" name="decija_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>3C1CB157-89C2-8491-6CAE-F9274859B757</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1137505-12E3-6E9A-ED63-5E38BDD4D9B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C1FF2BB-F749-465F-C0D5-6B7339AE8541" name="decija_takmicarskaEkipa_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>17D6C158-C956-C151-A877-75BCC622C57A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1137505-12E3-6E9A-ED63-5E38BDD4D9B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

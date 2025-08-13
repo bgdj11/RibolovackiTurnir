@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="845B4171-289E-3D4D-9B62-017A60D5E916" name="lovi">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>CDBAC30D-7874-971C-FDF1-4C81B73FFAF3</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ribolovac_idRibolovca" id="E9F5CC8B-FDBB-1FC8-7700-BB0013BBEC96">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>E99BC7AD-786F-35D0-50D6-C60E468CD98F</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="329FAB8C-E90D-B024-5674-5DE8F75D2B42" referredColumn="7540BF32-D712-7B8B-9E26-BC9EDBE8D47A"/>
+</associations>
+</Column>
+<Column name="ulov_idUlova" id="185B3FA7-03BC-E567-30D6-22DE75F5EAA9">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>03E3853F-5EF2-1C9F-F69B-F3F13F0ECD1A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE55BC81-F136-1783-077A-0611B4914AEB" referredColumn="0207A014-6D98-7E2F-3690-0BB937ACF0E3"/>
+</associations>
+</Column>
+<Column name="idRibolovca" id="D0CB3524-10B9-6D15-136E-314EB9931233">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:56:52 UTC</createdTime>
+<generatorID>B5EB8A12-141E-0059-205C-69FEA7385B9D</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A7A1F92-8E50-0A84-7BBD-6E0134AFB161" name="lovi_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>67584E82-3DA8-0CC1-6EB7-031C811339AA</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0CB3524-10B9-6D15-136E-314EB9931233"/>
+<colUsage columnID="185B3FA7-03BC-E567-30D6-22DE75F5EAA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78FE48D8-33FB-60FE-4D92-B83FCD3D8C8A" name="lovi_ribolovac_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>B9AB7B41-B983-EB83-8296-FD11FB72F49B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F5CC8B-FDBB-1FC8-7700-BB0013BBEC96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0094596-4AA3-08FA-96A6-EA8E57965E2F" name="lovi_ulov_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>01125072-A0DC-F1D1-21EE-58CCF136E82A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="185B3FA7-03BC-E567-30D6-22DE75F5EAA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

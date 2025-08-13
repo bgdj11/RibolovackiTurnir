@@ -1,0 +1,55 @@
+CREATE TYPE tip_takmicarske_ekipe AS ENUM ('decija', 'seniorska');
+
+CREATE TABLE takmicarska_ekipa (
+  id        BIGSERIAL PRIMARY KEY,
+  naziv     TEXT NOT NULL,
+  drzava    TEXT NOT NULL,
+  tip_ekipe tip_takmicarske_ekipe NOT NULL,
+  uzrast    INT,  -- maksimalan broj godina (samo za deciju)
+
+  CHECK (
+    (tip_ekipe = 'decija'    AND uzrast IS NOT NULL AND uzrast > 0)
+ OR (tip_ekipe = 'seniorska' AND uzrast IS NULL)
+  )
+);
+
+CREATE TABLE ribolovac (
+    id              BIGSERIAL PRIMARY KEY,
+    ime             TEXT NOT NULL,
+    prezime         TEXT NOT NULL,
+    datum_rodjenja  DATE NOT NULL,
+    broj_telefona   TEXT,
+    id_ekipe        BIGINT NOT NULL REFERENCES takmicarska_ekipa(id) ON DELETE CASCADE
+);
+
+CREATE TABLE turnir (
+    id               BIGSERIAL PRIMARY KEY,
+    naziv            TEXT NOT NULL,
+    datum_odrzavanja DATE NOT NULL,
+    lokacija         TEXT NOT NULL,
+    organizator      TEXT NOT NULL
+);
+
+
+CREATE TYPE tip_ribe_enum AS ENUM ('obicna', 'specijalna');
+
+CREATE TABLE vrsta_ribe (
+    id               BIGSERIAL PRIMARY KEY,
+    naziv            TEXT NOT NULL,
+    tip_ribe         tip_ribe_enum NOT NULL,
+    dodatni_bodovi   INT NOT NULL DEFAULT 0,
+
+    -- Pravilo:
+    CHECK (
+        (tip_ribe = 'obicna'     AND dodatni_bodovi = 0)
+     OR (tip_ribe = 'specijalna' AND dodatni_bodovi > 0)
+    )
+);
+
+CREATE TABLE ulov (
+    id             BIGSERIAL PRIMARY KEY,
+    id_ribolovac   BIGINT NOT NULL REFERENCES ribolovac(id) ON DELETE CASCADE,
+    id_vrste_ribe  BIGINT NOT NULL REFERENCES vrsta_ribe(id) ON DELETE CASCADE,
+    tezina         NUMERIC(10,2) NOT NULL,  -- u kilogramima, sa 2 decimale
+    broj_poena     INT NOT NULL
+);

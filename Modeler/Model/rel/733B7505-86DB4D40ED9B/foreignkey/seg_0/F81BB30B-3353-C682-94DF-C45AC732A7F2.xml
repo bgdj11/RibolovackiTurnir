@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F81BB30B-3353-C682-94DF-C45AC732A7F2" containerWithKeyObject="0FE7F8FB-ADF6-0015-2FF3-E26A500C1035" localFKIndex="9C1FF2BB-F749-465F-C0D5-6B7339AE8541" name="decija_takmicarskaEkipa_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>17D6C158-C956-C151-A877-75BCC622C57A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>takmicarskaEkipa</referredTableLongName>
+<arc>7E01D036-BB33-0CCD-C8A4-2B87D36327DB</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1F85775-43D3-4D8E-0AFB-57DFD95EE90E</referredTableID>
+<keyObject>59275937-F131-FEDF-49CF-F4A3866D3876</keyObject>
+<referredKeyID>59275937-F131-FEDF-49CF-F4A3866D3876</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEkipe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>decija</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

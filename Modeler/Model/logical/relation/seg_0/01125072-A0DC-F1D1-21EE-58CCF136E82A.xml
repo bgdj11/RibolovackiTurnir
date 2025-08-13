@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="loviv1" directorySegmentName="seg_0" id="01125072-A0DC-F1D1-21EE-58CCF136E82A">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:50:34 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<sourcePk>BE85DB3C-780E-FABA-5AAB-802EECEC82AA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D070879F-AB9D-857C-C69F-57CFDFE17FCB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CDBAC30D-7874-971C-FDF1-4C81B73FFAF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

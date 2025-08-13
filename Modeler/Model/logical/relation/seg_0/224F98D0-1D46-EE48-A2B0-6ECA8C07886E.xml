@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="odvija_se" directorySegmentName="seg_0" id="224F98D0-1D46-EE48-A2B0-6ECA8C07886E">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:28:36 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<sourcePk>9613BE3D-B1F8-694C-F807-99175DEB725C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3BE68F03-15C5-2BA6-27E6-A1AF2320281E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0E3F5AB9-6FDE-6576-E1FE-676E160F6DD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

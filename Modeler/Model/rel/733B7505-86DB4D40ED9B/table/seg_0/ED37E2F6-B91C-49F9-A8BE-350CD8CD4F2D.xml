@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED37E2F6-B91C-49F9-A8BE-350CD8CD4F2D" name="osvaja">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lovi_ribolovac_idRibolovca" id="4F59BC7C-8E37-B032-1BE0-2CF6120D17B3">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE3E590D-507E-4072-C58D-7E1093499AA3" referredColumn="E9F5CC8B-FDBB-1FC8-7700-BB0013BBEC96"/>
+</associations>
+</Column>
+<Column name="lovi_ulov_idUlova" id="542D5125-F0AB-4225-982C-879FD13897C3">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE3E590D-507E-4072-C58D-7E1093499AA3" referredColumn="185B3FA7-03BC-E567-30D6-22DE75F5EAA9"/>
+</associations>
+</Column>
+<Column name="nagrada_idNagrade" id="1F73E1E0-900D-8042-A444-2C9190A29768">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0FFDCC2-182F-9A37-F4B7-A542691FF393" referredColumn="B2A3FF55-C981-9661-020C-844B5A4D13CC"/>
+</associations>
+</Column>
+<Column name="lovi_idRibolovca" id="3AC631AD-A747-E3ED-F7F2-A4B10C50154B">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:56:52 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE3E590D-507E-4072-C58D-7E1093499AA3" referredColumn="D0CB3524-10B9-6D15-136E-314EB9931233"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="066E94E4-E982-BF6A-99D3-76999271FFEA" name="osvaja_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F59BC7C-8E37-B032-1BE0-2CF6120D17B3"/>
+<colUsage columnID="542D5125-F0AB-4225-982C-879FD13897C3"/>
+<colUsage columnID="1F73E1E0-900D-8042-A444-2C9190A29768"/>
+<colUsage columnID="3AC631AD-A747-E3ED-F7F2-A4B10C50154B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39CE3E93-D73B-87CB-EB43-3987ED52B3DB" name="osvaja_lovi_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>FA9E11A5-F96D-EA06-2319-A6A8C62CA395</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AC631AD-A747-E3ED-F7F2-A4B10C50154B"/>
+<colUsage columnID="542D5125-F0AB-4225-982C-879FD13897C3"/>
+<colUsage columnID="4F59BC7C-8E37-B032-1BE0-2CF6120D17B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24B830C4-4ADC-C8FE-55B3-B4E31DE61751" name="osvaja_nagrada_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>FA9E11A5-F96D-EA06-2319-A6A8C62CA395</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F73E1E0-900D-8042-A444-2C9190A29768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

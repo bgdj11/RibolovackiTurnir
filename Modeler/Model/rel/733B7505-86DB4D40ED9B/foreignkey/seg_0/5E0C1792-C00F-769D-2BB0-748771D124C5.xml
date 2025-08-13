@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E0C1792-C00F-769D-2BB0-748771D124C5" containerWithKeyObject="DA2F07C4-A73A-BCC1-516D-572944A3E46F" localFKIndex="1C685AEB-AF39-59D0-E13C-49E8CCE485EB" name="ulov_vrstaRibe_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:56:52 UTC</createdTime>
+<generatorID>24513815-A6D0-18A1-DC13-27740BCD8B05</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>vrstaRibe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1918CA70-31F2-0AA7-C804-0F9D71895B78</referredTableID>
+<keyObject>FAF2507D-55DC-07A7-054F-F7C8DFACFFE5</keyObject>
+<referredKeyID>FAF2507D-55DC-07A7-054F-F7C8DFACFFE5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idVrste</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

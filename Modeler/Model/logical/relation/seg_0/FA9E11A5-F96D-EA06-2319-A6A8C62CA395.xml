@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="osvaja" directorySegmentName="seg_0" id="FA9E11A5-F96D-EA06-2319-A6A8C62CA395">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:51:16 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CDBAC30D-7874-971C-FDF1-4C81B73FFAF3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6FAC2A59-5C39-616E-7333-3CFCD34FCE41</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

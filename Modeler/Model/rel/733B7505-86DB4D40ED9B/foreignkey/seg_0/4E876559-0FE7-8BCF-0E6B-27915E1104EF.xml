@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E876559-0FE7-8BCF-0E6B-27915E1104EF" containerWithKeyObject="F621DE8B-A61A-9B18-0452-BFE0CE534B1D" localFKIndex="4F75DC2A-80CD-E9A8-77B9-F876727F5F99" name="prijava_ribolovac_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>69C721EB-1B16-7EAF-F247-DA3770A494EA</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>ribolovac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E5502BD-4C9B-F264-BEE8-62C7AC59B1F9</referredTableID>
+<keyObject>3899C81D-5164-2EDD-284C-27847FB3B213</keyObject>
+<referredKeyID>3899C81D-5164-2EDD-284C-27847FB3B213</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idRibolovca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

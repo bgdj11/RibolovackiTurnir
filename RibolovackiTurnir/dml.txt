@@ -1,0 +1,39 @@
+-- 1) Takmičarske ekipe
+INSERT INTO takmicarska_ekipa (naziv, drzava, tip_ekipe, uzrast)
+VALUES 
+('Zlatna Udica', 'Srbija', 'decija', 16),
+('Dunavski Som', 'Srbija', 'seniorska', NULL),
+('Tisa Šaran', 'Srbija', 'seniorska', NULL),
+('Mali Šarani', 'Srbija', 'decija', 14);
+
+-- 2) Ribolovci
+INSERT INTO ribolovac (ime, prezime, datum_rodjenja, broj_telefona, id_ekipe)
+VALUES
+('Marko', 'Petrović', '2008-05-14', '0611234567', 1),
+('Nikola', 'Jovanović', '1985-03-20', '0629876543', 2),
+('Stefan', 'Milić', '1990-11-02', '0645554433', 3),
+('Luka', 'Stanković', '2010-07-19', '0617778889', 4);
+
+-- 3) Turniri
+INSERT INTO turnir (naziv, datum_odrzavanja, lokacija, organizator)
+VALUES
+('Prvenstvo Srbije u Ribolovu', '2025-08-15', 'Sombor', 'Savez Ribolovaca Srbije'),
+('Dunav Open', '2025-09-10', 'Novi Sad', 'Dunavski Klub');
+
+-- 4) Vrste ribe
+INSERT INTO vrsta_ribe (naziv, tip_ribe, dodatni_bodovi)
+VALUES
+('Šaran', 'obicna', 0),
+('Som', 'specijalna', 2),
+('Smudj', 'specijalna', 3),
+('Klen', 'obicna', 0);
+
+-- 5) Ulovi
+-- Poeni = tezina + dodatni_bodovi
+INSERT INTO ulov (id_ribolovac, id_vrste_ribe, tezina, broj_poena)
+VALUES
+(1, 1, 3.50, 3.50 + 0),      -- Marko ulovio šarana
+(1, 2, 5.20, 5.20 + 2),    -- Marko ulovio soma
+(2, 3, 4.80, 4.80 + 3),    -- Nikola ulovio smuđa
+(3, 4, 2.10, 2.10 + 0),      -- Stefan ulovio klena
+(4, 2, 6.00, 6.00 + 2);    -- Luka ulovio soma

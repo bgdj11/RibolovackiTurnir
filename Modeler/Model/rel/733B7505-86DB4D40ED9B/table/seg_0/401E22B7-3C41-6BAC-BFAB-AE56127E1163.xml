@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="401E22B7-3C41-6BAC-BFAB-AE56127E1163" name="ucestvuje">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="takmicarskaEkipa_idEkipe" id="8AFA0C8F-C198-2E5A-A03A-D0B18AB0DB1B">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="051B7607-3EB8-43BE-E9D8-CC28D8648C3C" referredColumn="221A7FFD-F3CB-72F7-158A-9F3AC32FE37D"/>
+</associations>
+</Column>
+<Column name="turnir_idTurnira" id="4C982583-D3E3-3494-5CF9-4B46D3E64247">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2D16AFA-967D-B7D7-F5CA-87BE5BF38EF4" referredColumn="FF7DF03F-1AA8-D35E-6FE9-0B1A74B8B404"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30178E01-D6AC-A090-957B-78B2101A7299" name="ucestvuje_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AFA0C8F-C198-2E5A-A03A-D0B18AB0DB1B"/>
+<colUsage columnID="4C982583-D3E3-3494-5CF9-4B46D3E64247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA38231F-4052-5FD8-56EA-1147243BE7B1" name="ucestvuje_takmicarskaEkipa_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>6C5049ED-2850-8B6A-34B0-4B78148F5C75</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AFA0C8F-C198-2E5A-A03A-D0B18AB0DB1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E5A26D9-B4A3-62D2-7B5F-103AC639BBDA" name="ucestvuje_turnir_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>6C5049ED-2850-8B6A-34B0-4B78148F5C75</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C982583-D3E3-3494-5CF9-4B46D3E64247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

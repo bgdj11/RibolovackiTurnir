@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nadlokacija" directorySegmentName="seg_0" id="7C51B583-3155-E8D9-A9E6-B35ADCF45F1C">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:05:29 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<targetPk>46A8FBC5-38EA-10EE-6244-214DCE73A124</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0E3F5AB9-6FDE-6576-E1FE-676E160F6DD7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0E3F5AB9-6FDE-6576-E1FE-676E160F6DD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

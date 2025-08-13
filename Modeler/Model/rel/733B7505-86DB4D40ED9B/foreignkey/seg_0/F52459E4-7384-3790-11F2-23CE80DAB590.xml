@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F52459E4-7384-3790-11F2-23CE80DAB590" containerWithKeyObject="20128F9D-C0F6-6D57-23E3-F7D55F5A3AA2" localFKIndex="8B788874-F30B-E5A1-EEFB-757EC952FD8D" name="obicna_vrstaRibe_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>9C810877-3889-5F7C-F0E0-37F62A741D04</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>vrstaRibe</referredTableLongName>
+<arc>B6C2A165-E6CF-131F-11B3-8808B32DD8CB</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1918CA70-31F2-0AA7-C804-0F9D71895B78</referredTableID>
+<keyObject>FAF2507D-55DC-07A7-054F-F7C8DFACFFE5</keyObject>
+<referredKeyID>FAF2507D-55DC-07A7-054F-F7C8DFACFFE5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idVrste</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>obicna</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

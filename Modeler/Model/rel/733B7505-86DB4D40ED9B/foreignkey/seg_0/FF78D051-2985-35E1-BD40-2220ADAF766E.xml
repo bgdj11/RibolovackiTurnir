@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF78D051-2985-35E1-BD40-2220ADAF766E" containerWithKeyObject="F621DE8B-A61A-9B18-0452-BFE0CE534B1D" localFKIndex="2F046DEF-3156-1109-6C6E-9E1CDF8D4E3A" name="prijava_turnir_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>8E8F4D75-23AC-5FC2-6E80-35B89233C433</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>turnir</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD131681-F525-6903-33D0-1D0806BE5623</referredTableID>
+<keyObject>38F154DD-B2A5-3375-DFC6-C51B23818AD4</keyObject>
+<referredKeyID>38F154DD-B2A5-3375-DFC6-C51B23818AD4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTurnira</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

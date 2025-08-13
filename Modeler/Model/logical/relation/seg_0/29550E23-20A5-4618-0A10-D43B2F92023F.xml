@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dodeljuje" directorySegmentName="seg_0" id="29550E23-20A5-4618-0A10-D43B2F92023F">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:34:07 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<sourcePk>9613BE3D-B1F8-694C-F807-99175DEB725C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3BE68F03-15C5-2BA6-27E6-A1AF2320281E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6FAC2A59-5C39-616E-7333-3CFCD34FCE41</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

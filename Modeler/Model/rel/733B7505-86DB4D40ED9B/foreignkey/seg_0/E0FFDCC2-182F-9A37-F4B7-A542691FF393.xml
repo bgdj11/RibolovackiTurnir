@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0FFDCC2-182F-9A37-F4B7-A542691FF393" containerWithKeyObject="ED37E2F6-B91C-49F9-A8BE-350CD8CD4F2D" localFKIndex="24B830C4-4ADC-C8FE-55B3-B4E31DE61751" name="osvaja_nagrada_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>FA9E11A5-F96D-EA06-2319-A6A8C62CA395</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>nagrada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78523DD7-4722-52ED-CF29-40F8A441D194</referredTableID>
+<keyObject>AB8B4D39-3854-A2B6-82ED-E2E4E2A4AF5A</keyObject>
+<referredKeyID>AB8B4D39-3854-A2B6-82ED-E2E4E2A4AF5A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idNagrade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

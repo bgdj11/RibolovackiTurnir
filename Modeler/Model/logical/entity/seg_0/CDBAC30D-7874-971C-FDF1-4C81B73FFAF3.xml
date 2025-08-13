@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDBAC30D-7874-971C-FDF1-4C81B73FFAF3" name="lovi">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:40:18 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idUlova" id="03E3853F-5EF2-1C9F-F69B-F3F13F0ECD1A">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:50:34 UTC</createdTime>
+<generatorID>01125072-A0DC-F1D1-21EE-58CCF136E82A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<referedAttribute>C802174C-8B35-D586-2672-9FED0309DBAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idRibolovca" id="B5EB8A12-141E-0059-205C-69FEA7385B9D">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:52:50 UTC</createdTime>
+<generatorID>B9AB7B41-B983-EB83-8296-FD11FB72F49B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<referedAttribute>31F208EE-DC75-6489-E01F-757718E901EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67584E82-3DA8-0CC1-6EB7-031C811339AA" name="lovi PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:45:16 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5EB8A12-141E-0059-205C-69FEA7385B9D</attributeRef>
+<attributeRef>03E3853F-5EF2-1C9F-F69B-F3F13F0ECD1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sudi" directorySegmentName="seg_0" id="D7C346BD-5F6B-D0AD-1AB8-0F87F272EA88">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-12 20:26:53 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="733B7505-E77B-D497-DC2E-86DB4D40ED9B" value="true"/>
+</engineerTo>
+<sourcePk>9613BE3D-B1F8-694C-F807-99175DEB725C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3BE68F03-15C5-2BA6-27E6-A1AF2320281E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C8DFE02-9D3C-BDA3-5386-B36D058F0E22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

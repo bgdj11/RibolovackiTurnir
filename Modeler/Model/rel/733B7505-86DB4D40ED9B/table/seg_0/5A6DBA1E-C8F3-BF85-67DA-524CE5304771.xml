@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A6DBA1E-C8F3-BF85-67DA-524CE5304771" name="odvija_se">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="turnir_idTurnira" id="AA68680D-17B0-42BB-F64E-04282150E3B4">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="440EADD2-D556-D76A-6EFE-780D7669C771" referredColumn="FF7DF03F-1AA8-D35E-6FE9-0B1A74B8B404"/>
+</associations>
+</Column>
+<Column name="lokacija_idLokacije" id="37A035CD-29E9-89ED-5A53-78FA2A177566">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EF0DCAD-0ECC-D3CD-2900-A34464DFE89B" referredColumn="AE114CC2-23BB-D27F-7A7A-8A6EFCEF6271"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFC4A991-80AF-3CBF-B577-5CE15BED728D" name="odvija_se_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA68680D-17B0-42BB-F64E-04282150E3B4"/>
+<colUsage columnID="37A035CD-29E9-89ED-5A53-78FA2A177566"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F4E420F-2FDF-04CC-D7F4-6F0B4AA04266" name="odvija_se_turnir_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>224F98D0-1D46-EE48-A2B0-6ECA8C07886E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA68680D-17B0-42BB-F64E-04282150E3B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3A4982B-6B3C-916F-A85C-B3EC79380BEB" name="odvija_se_lokacija_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>224F98D0-1D46-EE48-A2B0-6ECA8C07886E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A035CD-29E9-89ED-5A53-78FA2A177566"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

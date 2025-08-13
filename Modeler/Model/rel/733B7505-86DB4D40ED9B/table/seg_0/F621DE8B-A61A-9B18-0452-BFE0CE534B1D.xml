@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F621DE8B-A61A-9B18-0452-BFE0CE534B1D" name="prijava">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>503DE32A-0542-449C-7DA5-71D09BF57F7A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPrijave" id="07B9359C-BC1F-F1AD-96F6-9487EAD5617D">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>15DA0FC1-20A6-72A7-B1D7-8612F5D7AAF6</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumPrijave" id="C8DC91CD-C752-66DC-D264-37C2EAF2A458">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>5240BC8E-ADA7-6D99-821F-4AD493427867</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="1072226A-81F3-4964-43A1-6D535C825DFF">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>539FDC73-3641-F0C3-E106-3089084DC375</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ribolovac_idRibolovca" id="1A679F71-20F6-FABE-C25D-4F3A9EA79BCE">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>4B0037F5-103B-3AC1-C4C1-3201BF91AD2F</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E876559-0FE7-8BCF-0E6B-27915E1104EF" referredColumn="7540BF32-D712-7B8B-9E26-BC9EDBE8D47A"/>
+</associations>
+</Column>
+<Column name="turnir_idTurnira" id="4D1495BD-FFF2-7176-0EF4-952AB4B6651F">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>1ED7103F-261D-9E6A-FF78-CD75A0CA35AF</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF78D051-2985-35E1-BD40-2220ADAF766E" referredColumn="FF7DF03F-1AA8-D35E-6FE9-0B1A74B8B404"/>
+</associations>
+</Column>
+<Column name="idTurnira" id="37632D17-5C77-4D5D-6EA6-CE237481CE1F">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:56:52 UTC</createdTime>
+<generatorID>B472D84B-E54F-65B3-5572-F0D6DB5C447D</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idRibolovca" id="538097D3-7BCE-207F-971E-C818CC6F6E7A">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:56:52 UTC</createdTime>
+<generatorID>5443DD39-78FB-1F12-E91C-E72F9D92D9C8</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA253D8F-AFFA-CDA8-8749-F508D10013A3" name="prijava_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>54D8F990-9507-3AB1-0922-A127AF648001</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07B9359C-BC1F-F1AD-96F6-9487EAD5617D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F046DEF-3156-1109-6C6E-9E1CDF8D4E3A" name="prijava_turnir_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>8E8F4D75-23AC-5FC2-6E80-35B89233C433</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D1495BD-FFF2-7176-0EF4-952AB4B6651F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F75DC2A-80CD-E9A8-77B9-F876727F5F99" name="prijava_ribolovac_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>69C721EB-1B16-7EAF-F247-DA3770A494EA</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A679F71-20F6-FABE-C25D-4F3A9EA79BCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

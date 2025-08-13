@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A045B0F7-2B63-FC11-95FE-BA421F26EE1A" name="specijalna">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>21DE8C8B-76A8-AE1B-6759-854185742809</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idVrste" id="B54EA54A-A3CB-992B-2470-0D040E79D508">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>A5CC6F7E-C8AF-8634-7C3F-4D1979A1527E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="329F4AAE-E850-08BC-7971-A0C9DB829679" referredColumn="46E64FA9-1B07-C558-9029-A8953B3EB137"/>
+</associations>
+</Column>
+<Column name="dodatniBodovi" id="0B68244B-F3FA-289F-D6D3-02E588167BE6">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>85FB4D91-964B-1462-6F48-F60A509E7956</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,100,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86E79311-0F34-D96A-C9AC-C5A8794AF1A3" name="specijalna_PK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:50 UTC</createdTime>
+<generatorID>C1206ACF-FD50-7060-AF2B-A9858F1366C1</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B54EA54A-A3CB-992B-2470-0D040E79D508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="642D05ED-D4DE-DC23-97B0-76123CB682D2" name="specijalna_vrstaRibe_FK">
+<createdBy>bgdj2</createdBy>
+<createdTime>2025-08-13 12:32:51 UTC</createdTime>
+<generatorID>3983D635-47F7-2465-C845-F8A5BA9B36DE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B54EA54A-A3CB-992B-2470-0D040E79D508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
